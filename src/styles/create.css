@@ -1,0 +1,43 @@
+.form-container1 {
+    max-width: 400px;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    margin-top: 50px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+.form-container1 form {
+    background-color: white;
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    padding: 0px 40px 40px 40px;
+}
+.form-container1 form h2 {
+    color: grey;
+}
+.addnewblog {
+    text-align: center;
+}
+.form-container1 form div {
+    margin-top: 8px;
+}
+.form-container1 form input {
+    width: 100%;
+    padding: 10px;
+}
+.form-container1 form button {
+    background-color: grey;
+    color: white;
+    padding: 8px 15px;
+    margin-top: 8px;
+    cursor: pointer;
+    width: 100%;
+}
+.form-container1 form button:hover {
+    background-color: black;
+}
