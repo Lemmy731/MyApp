@@ -7,6 +7,7 @@ import Create from "./components/Create";
 import Posts from "./components/Posts";
 import Register from "./components/Register";
 import Login from "./components/Login";
+import LandingPage from './components/LandingPage';
 import './App.css';
 
 function App() {
@@ -27,7 +28,8 @@ function App() {
       <BrowserRouter>
     <Nav/>
     <Routes>
-        <Route path="/" element={<Posts />}></Route>
+        <Route path="/" element={< LandingPage/>}></Route>
+        <Route path="/posts" element={<Posts />}></Route>
         <Route path="/detail/:id" element={<Detail />}></Route>
         <Route path="/blog" element={<Create />}></Route>
         <Route path="/register" element={<Register />} />
