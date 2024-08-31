@@ -2,7 +2,7 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 import '../styles/nav.css';
 
-
+// nav bar
 function Nav() {
   return (
     <div className='nav'>

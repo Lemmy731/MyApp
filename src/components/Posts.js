@@ -2,8 +2,6 @@ import axios from 'axios';
 import React, { useEffect, useState } from 'react';
 import Post from './Post';
 import '../styles/posts.css';
-// import Create from './Create';clear
-
 
 function Posts() {
     const [blogs, setBlogs] = useState([])

@@ -2,7 +2,7 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 import '../styles/post.css';
 
-
+// display post
 function Post({blog}) {
   return (
     <Link to={`/detail/${blog.id}`} className='post-link'>

@@ -5,6 +5,7 @@ import login from '../images/login.png';
 import create from '../images/create.png';
 import '../styles/landingPage.css';
 
+// landing page
 function LandingPage()
 {
     return(
@@ -42,7 +43,7 @@ function LandingPage()
             The inspiration behind Blog2for came from my passion for writing and sharing ideas with others. I wanted to create a platform that allows people to express their thoughts and engage with a community. This project started as a personal endeavor to combine my love for technology and content creation.
         </p>
         <a href="https://www.linkedin.com/in/lemmy-osiki-b6934418b/" target="_blank">LinkedIn</a><br/>
-        <a href="https://github.com/Lemmy731" target="_blank">GitHub</a>
+        <a href="https://github.com/Lemmy731/MyApp" target="_blank">GitHub</a>
 
         </div>
            
