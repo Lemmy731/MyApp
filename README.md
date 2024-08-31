@@ -76,6 +76,12 @@ Contributions are welcome! Please follow these steps to contribute:
 
 (https://github.com/Lemmy731/HotelManagementSystem-FrontEnd.git) - Description of related project.
 
+## Screenshot
+
+Here is a screenshot of the Blog2For application:
+
+![Blog2For Screenshot](src/images/create.png)
+
 
 
 
